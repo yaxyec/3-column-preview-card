@@ -3,12 +3,11 @@
 :root{
     --box-radius:11px;
 }
-    /* font-family: 'Big Shoulders Display', cursive; */
 
 
 body{
     font-family: 'Lexend Deca', sans-serif;
-    font-family: 'Lexend Deca', sans-serif;
+    /* font-family: 'Big Shoulders Display', cursive; */
     Font-size: 15px
 }
 
@@ -18,7 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 @media (max-width:375px) {
     .conainer{
@@ -29,8 +28,8 @@ body{
 .conainer .box{
     position: relative;
     width: 19%;
-    height: 34em;
-    padding: 58px;
+    height: 37em;
+    padding: 35px 81px 59px 53px;
     background-color: var(--color);
 }
 .conainer .box:first-child{
