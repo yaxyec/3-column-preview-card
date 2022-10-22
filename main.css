@@ -8,7 +8,9 @@
 body{
     font-family: 'Lexend Deca', sans-serif;
     /* font-family: 'Big Shoulders Display', cursive; */
-    Font-size: 15px
+    Font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
 }
 
 .conainer{
@@ -27,8 +29,8 @@ body{
 }
 .conainer .box{
     position: relative;
-    width: 19%;
-    height: 37em;
+    width: 20.48%;
+    height: 40em;
     padding: 35px 81px 59px 53px;
     background-color: var(--color);
 }
